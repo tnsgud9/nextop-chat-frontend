@@ -9,11 +9,8 @@ import {
 import type { ChatRoomElementProps } from "./ChatRoomElement";
 import { Input } from "@/components/ui/input";
 
-interface ChatRoomListProps {
-  list: ChatRoomElementProps[];
-}
-
-const ChatRoomList = ({ list }: ChatRoomListProps) => {
+const ChatRoomList = () => {
+  const list = [{ lastMessage: "Hello World", roomname: "Test" }];
   return (
     <SidebarGroup>
       <SidebarGroupLabel>Messages</SidebarGroupLabel>
