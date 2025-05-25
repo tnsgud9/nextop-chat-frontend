@@ -1,4 +1,4 @@
-import type { ChatRoomsResponseDto } from "@/commons/dtos/chat.dtos";
+import type { ChatRoomsResponseDto } from "@/commons/dtos/chat.dto";
 import type { ChatRoomDto } from "@/commons/dtos/chatroom.dto";
 import config from "@/config";
 import axios from "axios";
